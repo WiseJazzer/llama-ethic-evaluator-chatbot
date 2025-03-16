@@ -56,10 +56,10 @@ class EthicsChatbotGUI:
         # Lista de teorías éticas y palabras clave
         self.theories_list = ["Justo Medio", "Utilitarismo", "Imperativo Categórico", "Ética de la Liberación", "Sumak Kawsay"]
         self.keywords_dict = {
-            "Justo Medio aristotélico": ["punto intermedio", "dos extremos viciosos", "entre los extremos viciosos"],
+            "Justo Medio": ["punto intermedio", "dos extremos viciosos", "entre los extremos viciosos"],
             "Utilitarismo": ["mayor felicidad", "mayor beneficio", "más beneficio", "a la mayoría"],
-            "Imperativo Categórico kantiano": ["me gustaría que", "todos siempre hagan", "se vuelva ley universal", "es deseable"],
-            "Ética de la Liberación de Dussel": ["vida digna", "sur global", "liberación de los oprimidos", "dignidad"],
+            "Imperativo Categórico": ["me gustaría que", "todos siempre hagan", "se vuelva ley universal", "es deseable"],
+            "Ética de la Liberación": ["vida digna", "sur global", "liberación de los oprimidos", "dignidad"],
             "Sumak Kawsay": ["equilibrio", "armonía", "buen vivir", "personas y el mundo"]
         }
         self.selected_theory = tk.StringVar()
