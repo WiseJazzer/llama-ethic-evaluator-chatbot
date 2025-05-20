@@ -10,12 +10,9 @@ class LlamaModel:
     def evaluate_ethical_judgment(self, text, theories, keywords):
         # Prepara el prompt para Llama 3.2:1b
         prompt = (
-            f"Eres un experto en ética. Evalúa el siguiente juicio ético basado en la teoría {', '.join(theories)} "
-            f"y las palabras clave {', '.join(keywords)}. El texto del estudiante es:\n\n{text}\n\n"
-            "Proporciona una retroalimentación detallada, incluyendo:\n"
-            "1. Revisa si el juicio ético incluye, ya sea de manera literal o parafraseada, las palabras clave de la teoría ética que está usando.\n"
-            "2. Si es congruente su fundamentación con el juicio de valor que hace de la acción.\n"
-            "3. Retroalimentación acerca de si su juicio ético cumple con estos 2 criterios."
+            f"Eres un experto en auditoría ambiental en México. Asesora al cliente basándote en la norma mexicana nmx-aa-162-scfi-2012 y en la LGEEPA "
+            f"La consulta del clinete es:\n\n{text}\n\n"
+            "Proporciona una retroalimentación detallada, acerca de los incentivos fiscales y el cumplimiento con la norma mexicana de auditoría ambiental\n"
         )
 
         # Envía el prompt a Llama 3.2:1b
